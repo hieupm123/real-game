@@ -214,6 +214,7 @@ const checkWin = () => {
         reset();
         return;
     }
+    //
     else if(missed >= 5){
         overlay.className = 'lose';
         h3.textContent = 'Sorry, you lost :(';
