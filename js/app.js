@@ -267,7 +267,7 @@ const checkWin = () => {
         return;
     }
     //
-    else if(missed >= 5){
+    else if(missed >= 2){
         overlay.className = 'lose';
         h3.textContent = 'Sorry, you lost :(';
         startGameBtn.textContent = 'Chơi lại đi người anh em!';
@@ -320,8 +320,8 @@ ct_button.addEventListener('click', () =>{
         reset();
 });
 const reset = () => {
-        if(cnt >= 12){
-            alert("Điểm số của bạn:" + kq.toString() + "/12");
+        if(cnt >= 15){
+            alert("Điểm số của bạn:" + kq.toString() + "/15");
             ssp = 0;
             window.location.href = "./new.html";
         }else{
