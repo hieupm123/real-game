@@ -267,7 +267,7 @@ const checkWin = () => {
         return;
     }
     //
-    else if(missed >= 2){
+    else if(missed >= 3){
         overlay.className = 'lose';
         h3.textContent = 'Sorry, you lost :(';
         startGameBtn.textContent = 'Chơi lại đi người anh em!';
