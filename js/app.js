@@ -21,7 +21,7 @@ var phrases_by_num = [1,3,3,2,2,4,4,3,0,1,2,0,4,3,4,1];
 // đáp án nếu A thì là 1, B là 2, ...
 var qs = ['Nguyên nhân chính khiến nhiệt độ tăng từ Bắc và Nam là'
 ,'Đặc điểm nào sau đây KHÔNG thuộc khí hậu phần lãnh thổ phía Nam?'
-,'Thiên nhiên phần lãnh thổ phía Bắc ( từ dãy Bạch Mã trở ra) đặc trưng cho vùng khí hậu nào?'
+,'Thiên nhiên phần lãnh thổ phía Bắc (từ dãy Bạch Mã trở ra) đặc trưng cho vùng khí hậu nào?'
 ,'Từ đông sang tây, từ biển vào đất liền, thiên nhiên nước ta có sự phân hóa thành 3 dải rõ rệt là'
 ,'Đặc điểm của thềm lục địa miền Trung là:'
 ,'Nguyên nhân chính làm thiên nhiên phân hóa theo Đông – Tây ở vùng đồi núi phức tạp là do:'
@@ -57,11 +57,11 @@ var type = [1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1];
 // nếu là câu tn thì để số 1, text số 0
 var tick = [['Góc nhập xạ tăng  từ Bắc vào Nam','Ảnh hưởng của gió mùa Đông Bắc làm giảm nhiệt độ miền Nam','Do nhiệt độ thiên về khí hậu nhiệt đới','Sự gia tăng ảnh hưởng khối khí lạnh về phí Nam']
 ,['Nhiệt độ trung bình năm trên 250C, không có tháng nào dưới 200C','Biên độ nhiệt trung bình năm nhỏ','Biên độ nhiệt trung bình năm lớn','Phân chia thành hai mùa mưa và khô']
-,['Cận nhiệt đơi hải dương ','Nhiệt đới lục địa','Nhiệt đới lục địa','Cận xích đạo gió mùa']
+,['Cận nhiệt đơi hải dương ','Nhiệt đới lục địa','Nhiệt đới ẩm gió mùa có mùa đông lạnh','Cận xích đạo gió mùa']
 ,['Vùng biển- vùng đất – vùng trời','Vùng biển và thềm lục địa – vùng đồng bằng ven biển – vùng đồi núi','Vùng biển và thềm lục địa – vùng đồi núi thấp – vùng đồi núi cao','Vùng biển – vùng đồng bằng – vùng cao nguyên']
 ,['Mở rộng, đáy nông, có nhiều đảo, nhiều sông lớn đổ ra','Thu hẹp, đáy sâu, có sông, suối nhỏ đổ ra biển','Diện tích rộng, bằng phẳng, có các bãi triều thấp, phẳng','Hẹp ngang, bị chia cắt và phân dải']
 ,['Gió mùa và độ cao địa hình','Gió mùa và biển Đông','Hướng các dãy núi và độ cao địa hình','Gió mùa và hướng các dãy núi']
-,['Mát mẻ, nhiệt độ trung bình dưới 20oC','Quanh năm lạnh, nhiệt độ trung bình dưới 10oC','Mùa hạ nóng (trung bình trên 25oC), mùa đông lạnh dưới 10oC','Quanh năm nhiệt độ dưới 15oC, mùa đông dưới 5oC']
+,['Mát mẻ, nhiệt độ trung bình dưới 20 độ','Quanh năm lạnh, nhiệt độ trung bình dưới 10 độ','Mùa hạ nóng (trung bình trên 25 độ), mùa đông lạnh dưới 10 độ','Quanh năm nhiệt độ dưới 15 độ, mùa đông dưới 5 độ']
 ,['địa hình núi cao chỉ chiếm 1% diện tích cả nước','địa hình ¾ là đồi núi','đồng bằng và đồi núi thấp chiểm 85%','đồng bằng chỉ chiếm ¼ diện tích']
 ,[]
 ,['Rừng lá kim trên đất feralit có mùn','Rừng gió mùa lá rộng thường xanh','Rừng lá kim trên đất feralit','Rừng cận nhiệt đới lá rộng thường xanh']
@@ -80,7 +80,7 @@ var tick = [['Góc nhập xạ tăng  từ Bắc vào Nam','Ảnh hưởng của
 // chú ý cứ thế điền vào file này không cần xóa j cả trên là vd câu 1 câu 2
 
 var myMusic= document.getElementById("music_ado");
-
+myMusic.volume = 0.4;
 // function play() {
 // }
 $("div button").mouseenter(function(){
@@ -267,7 +267,7 @@ const checkWin = () => {
         return;
     }
     //
-    else if(missed >= 3){
+    else if(missed >= 2){
         overlay.className = 'lose';
         h3.textContent = 'Sorry, you lost :(';
         startGameBtn.textContent = 'Chơi lại đi người anh em!';
