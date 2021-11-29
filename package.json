@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZaidKhan144/game-show-app.git"
+    "url": "https://github.com/hieupm123/real-game"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ZaidKhan144/game-show-app/issues"
+    "url": "https://github.com/hieupm123/real-game"
   },
-  "homepage": "https://github.com/ZaidKhan144/game-show-app#readme"
+  "homepage": "https://github.com/hieupm123/real-game"
 }
