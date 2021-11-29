@@ -80,7 +80,7 @@ var tick = [['Góc nhập xạ tăng  từ Bắc vào Nam','Ảnh hưởng của
 // chú ý cứ thế điền vào file này không cần xóa j cả trên là vd câu 1 câu 2
 
 var myMusic= document.getElementById("music_ado");
-myMusic.volume = 0.3;
+myMusic.volume = 0.1;
 // function play() {
 // }
 $("div button").mouseenter(function(){
