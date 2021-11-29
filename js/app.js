@@ -56,7 +56,7 @@ var dao = [''
 var type = [1,1,1,1,1,1,1,1,0,1,1,0,1,1,1,1];
 // nếu là câu tn thì để số 1, text số 0
 var tick = [['Góc nhập xạ tăng  từ Bắc vào Nam','Ảnh hưởng của gió mùa Đông Bắc làm giảm nhiệt độ miền Nam','Do nhiệt độ thiên về khí hậu nhiệt đới','Sự gia tăng ảnh hưởng khối khí lạnh về phí Nam']
-,['Nhiệt độ trung bình năm trên 250C, không có tháng nào dưới 200C','Biên độ nhiệt trung bình năm nhỏ','Biên độ nhiệt trung bình năm lớn','Phân chia thành hai mùa mưa và khô']
+,['Nhiệt độ trung bình năm trên 25 độ, không có tháng nào dưới 20 độ','Biên độ nhiệt trung bình năm nhỏ','Biên độ nhiệt trung bình năm lớn','Phân chia thành hai mùa mưa và khô']
 ,['Cận nhiệt đơi hải dương ','Nhiệt đới lục địa','Nhiệt đới ẩm gió mùa có mùa đông lạnh','Cận xích đạo gió mùa']
 ,['Vùng biển- vùng đất – vùng trời','Vùng biển và thềm lục địa – vùng đồng bằng ven biển – vùng đồi núi','Vùng biển và thềm lục địa – vùng đồi núi thấp – vùng đồi núi cao','Vùng biển – vùng đồng bằng – vùng cao nguyên']
 ,['Mở rộng, đáy nông, có nhiều đảo, nhiều sông lớn đổ ra','Thu hẹp, đáy sâu, có sông, suối nhỏ đổ ra biển','Diện tích rộng, bằng phẳng, có các bãi triều thấp, phẳng','Hẹp ngang, bị chia cắt và phân dải']
